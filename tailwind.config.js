@@ -25,9 +25,31 @@ module.exports = {
         sans: ['var(--font-space-grotesk)', ...fontFamily.sans],
       },
       colors: {
-        primary: colors.rose,
-        accent: colors.lime,
+        primary: {
+          100: '#E65059',
+          200: '#E65059',
+          300: '#E65059',
+          400: '#E65059',
+          500: '#E65059',
+          600: '#E65059',
+          700: '#E65059',
+          800: '#E65059',
+          900: '#E65059',
+        },
+        accent: {
+          100: '#50E67A',
+          200: '#50E67A',
+          300: '#50E67A',
+          400: '#50E67A',
+          500: '#50E67A',
+          600: '#50E67A',
+          700: '#50E67A',
+          800: '#50E67A',
+          900: '#50E67A',
+        },
         gray: colors.stone,
+        carnivorousRed: '#E65059',
+        carnivorousYellow: '#50E67A',
       },
       typography: ({ theme }) => ({
         DEFAULT: {
